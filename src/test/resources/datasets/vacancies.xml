@@ -1,0 +1,4 @@
+<dataset>
+    <VACANCY id="1" name="Middle Java developer" salary="100000" experience="1-2 years" city="Kirov"/>
+    <VACANCY id="2" name="Junior Java developer" salary="90000" experience="1-2 years" city="Moscow"/>
+</dataset>
