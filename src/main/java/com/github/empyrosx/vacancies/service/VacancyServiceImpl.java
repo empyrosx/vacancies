@@ -32,4 +32,9 @@ public class VacancyServiceImpl implements VacancyService {
     public Vacancy save(Vacancy vacancy) {
         return repository.save(vacancy);
     }
+
+    @Override
+    public void delete(Long id) {
+        repository.delete(id);
+    }
 }

@@ -1,5 +1,7 @@
 package com.github.empyrosx.vacancies.model;
 
+import com.fasterxml.jackson.annotation.JsonInclude;
+import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlRootElement;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.NonNull;
@@ -17,6 +19,8 @@ import javax.persistence.Id;
 @NoArgsConstructor
 @RequiredArgsConstructor
 @ToString
+@JacksonXmlRootElement(localName = "vacancy")
+@JsonInclude(JsonInclude.Include.NON_NULL)
 public class Vacancy {
 
     @Id

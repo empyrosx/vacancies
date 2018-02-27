@@ -11,4 +11,6 @@ public interface VacancyService {
     Vacancy findById(Long id);
 
     Vacancy save(Vacancy vacancy);
+
+    void delete(Long id);
 }
